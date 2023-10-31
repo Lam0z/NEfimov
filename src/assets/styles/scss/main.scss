@@ -1,3 +1,8 @@
 @import "./_common.scss";
 @import "./_variables.scss";
 @import "./_fonts.scss";
+
+.activeMenu {
+  transform: translateX(0);
+  padding-left: 0;
+}

@@ -1,9 +1,10 @@
 import { createStore } from "vuex";
-import main from "./modules/main";
+import home from "./modules/home";
 
 const store = createStore({
+  namespaced: true,
   modules: {
-    main,
+    home,
   },
 });
 
