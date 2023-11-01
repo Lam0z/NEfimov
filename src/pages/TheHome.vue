@@ -1,12 +1,17 @@
 <template>
-  <TheHeader />
   <TheLayout>
+    <template #header>
+      <TheHeader />
+    </template>
     <TheInfo />
     <TheTech />
     <TheProjects />
+    <template #footer>
+      <TheFooter />
+    </template>
   </TheLayout>
-  <TheFooter />
 </template>
+
 <script setup>
 import TheHeader from "@/components/home/TheHeader.vue";
 import TheInfo from "@/components/home/TheInfo.vue";

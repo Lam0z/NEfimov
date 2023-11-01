@@ -12,7 +12,9 @@
           class="flex h-[250px] w-[250px] sm:order-1 md:h-auto md:w-auto"
           alt="logo"
         />
-        <h1 class="text-3xl font-bold md:text-5xl lg:text-6xl">
+        <h1
+          class="text-3xl font-bold text-homeColor dark:text-[#D9D9D9] md:text-5xl lg:text-6xl"
+        >
           Hi 👋, <br />
           My name is <br />
           <span
