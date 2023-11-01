@@ -19,6 +19,7 @@ export default {
   mutations: {
     changeIsActive(state) {
       state.isActive = !state.isActive;
+      console.log(state.isActive);
     },
   },
 };
