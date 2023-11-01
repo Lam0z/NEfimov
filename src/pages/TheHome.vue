@@ -3,9 +3,11 @@
     <template #header>
       <TheHeader />
     </template>
-    <TheInfo />
+    <!-- <TheInfo />
     <TheTech />
-    <TheProjects />
+    <TheProjects /> -->
+    <!-- test -->
+    <Test />
     <template #footer>
       <TheFooter />
     </template>
@@ -19,4 +21,6 @@ import TheTech from "@/components/home/TheTech.vue";
 import TheLayout from "@/components/home/TheLayout.vue";
 import TheProjects from "@/components/home/TheProjects.vue";
 import TheFooter from "@/components/home/TheFooter.vue";
+// test
+import Test from "@/components/home/Test.vue";
 </script>
