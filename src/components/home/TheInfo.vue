@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <section class="pt-[100px] text-homeColor md:pt-[200px]">
+  <section class="pt-[100px] text-homeColor md:pt-[200px]" id="home">
     <div class="mx-auto max-w-[1200px]">
       <div class="flex flex-col items-center justify-between gap-2 sm:flex-row">
         <img

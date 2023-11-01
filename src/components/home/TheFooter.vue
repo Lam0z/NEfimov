@@ -1,6 +1,7 @@
 <template>
   <footer
     class="dark:text-homeDarkColor px-3 pb-[60px] pt-[100px] font-normal text-homeColor md:px-5"
+    id="contact"
   >
     <div class="mx-auto max-w-[1200px]">
       <div>

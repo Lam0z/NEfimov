@@ -34,11 +34,11 @@ onMounted(() => {
           <ul
             class="hidden flex-wrap gap-y-[10px] sm:gap-x-[20px] md:flex lg:gap-x-[65px]"
           >
-            <li>Home</li>
-            <li>About</li>
-            <li>Tech Stack</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
+            <li><a href="#tech">Tech Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div class="hidden gap-x-[20px] md:flex">
@@ -104,11 +104,11 @@ onMounted(() => {
         />
         <nav>
           <ul class="flex flex-col gap-5">
-            <li><a href="" @click="toggleMenu">Home</a></li>
-            <li><a href="" @click="toggleMenu">About</a></li>
-            <li><a href="" @click="toggleMenu">Tech Stack</a></li>
-            <li><a href="" @click="toggleMenu">Projects</a></li>
-            <li><a href="" @click="toggleMenu">Contact</a></li>
+            <li><a href="#home" @click="toggleMenu">Home</a></li>
+            <!-- <li><a href="" @click="toggleMenu">About</a></li> -->
+            <li><a href="#tech" @click="toggleMenu">Tech Stack</a></li>
+            <li><a href="#projects" @click="toggleMenu">Projects</a></li>
+            <li><a href="#contact" @click="toggleMenu">Contact</a></li>
           </ul>
           <div class="mt-5 flex gap-x-[20px]">
             <svg

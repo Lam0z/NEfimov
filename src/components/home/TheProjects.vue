@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-[100px] md:pt-[150px]">
+  <section class="pt-[100px] md:pt-[150px]" id="projects">
     <div class="mx-auto max-w-[1200px]">
       <div class="">
         <div class="mb-[50px] text-center md:mb-[100px]">
